@@ -1,0 +1,132 @@
+#car {
+    width: 300px;
+    height: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  padding: 3px 5px;
+  background-color: #1fd8f1;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.selected {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: rgb(175, 220, 228);
+  }
+  
+  td {
+    border: 2px dashed rgb(255, 190, 241);
+  }
+  
+
+div {
+    background-color: crimson;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    height: 15px;
+    width: 50%;
+    align-content: center;
+
+    margin-left: 25%;
+
+}
+
+body {
+    animation: rotation 8s infinite linear;
+}
+
+img {
+    animation: rotation2 10s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotation2 {
+    0% {
+		transform: rotate(100turn);
+	}
+
+	4% {
+		transform: rotate(0.98turn);
+	}
+
+	8% {
+		transform: rotate(0.99turn);
+	}
+
+	18% {
+		transform: rotate(0.94turn);
+	}
+
+	26% {
+		transform: scale(0.3);
+	}
+
+	46% {
+		transform: rotate(0.75turn);
+	}
+
+	64% {
+		transform: rotate(0.98turn);
+	}
+
+	76% {
+		transform: rotate(-44turn);
+	}
+
+	88% {
+		transform: rotate(0.11turn);
+	}
+
+	100% {
+		transform: rotate(0turn);
+	}
+}
+
+body {
+    animation: fade infinite 1s;
+    background-color: aqua;
+
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
+}
