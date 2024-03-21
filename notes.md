@@ -3,16 +3,16 @@ permissions:
 - [ ] websystems directory 755
 
 specs:
-- [ ] websystems/index.html
+- [x] websystems/index.html
 - [ ] websystems/past.html
 - [ ] websystems/future.html
 - [ ] websystems/comments.html
 - [ ] websystems/websystems.css
 
-- [ ] HTML 4.01 or higher
-- [ ] CSS 2.1 or higher
+- [x] HTML 4.01 or higher
+- [x] CSS 2.1 or higher
 - [ ] No embedded styles (including deprecated tags such as font or formatting attributes) or use of @import.  ALL styles must be in websystems.css .
-- [ ] You must provide navigation between pages using HTML hyperlinks.
+- [x] You must provide navigation between pages using HTML hyperlinks.
 At least:
 - [ ] 5 CSS classes
 - [ ] 1 CSS id
@@ -20,12 +20,12 @@ At least:
 - [ ] 1 span
 - [ ] 1 table (NOT CSS tables)
 - [ ] 1 list (any one of ordered, unordered, definition)
-- [ ] 1 image  (should not be large, e.g.  over 1Mb in size)
+- [x] 1 image  (should not be large, e.g.  over 1Mb in size)
 
 index.html
 - [ ] This home page should be a short introduction to yourself and your website. Do not post private information here as this page will be public.
 
-- [ ] You must link to the other 3 pages (past.html, future.html, comments.html) from the home page. You must as a minimum use HTML anchors for this, but can also add other navigation methods if you wish, for example, clickable images. You should also include links back to the home page from the sub-pages. Even better is a consistent navigation method such as a menu bar on all pages.
+- [x] You must link to the other 3 pages (past.html, future.html, comments.html) from the home page. You must as a minimum use HTML anchors for this, but can also add other navigation methods if you wish, for example, clickable images. You should also include links back to the home page from the sub-pages. Even better is a consistent navigation method such as a menu bar on all pages.
 
 You are permitted to obfuscate your personal information in the index/past pages as we respect your rights to privacy.
 

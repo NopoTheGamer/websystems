@@ -3,6 +3,7 @@
     height: 400px;
 }
 
+
 h1 {
     text-align: center;
 }
@@ -36,19 +37,13 @@ nav ul li a {
   color: #000;
 }
 
-table {
-    margin: auto;
-    border-collapse: collapse;
-    background-color: rgb(175, 220, 228);
-  }
-  
-  td {
-    border: 2px dashed rgb(255, 190, 241);
-  }
+
+
+
   
 
 div {
-    background-color: black;
+    background-color: aqua;
     
     height: 45px;
     width: 50%;
