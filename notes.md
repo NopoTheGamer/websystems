@@ -16,10 +16,10 @@ specs:
 At least:
 - [ ] 5 CSS classes
 - [ ] 1 CSS id
-- [ ] 1 div
+- [x] 1 div
 - [ ] 1 span
 - [ ] 1 table (NOT CSS tables)
-- [ ] 1 list (any one of ordered, unordered, definition)
+- [s] 1 list (any one of ordered, unordered, definition)
 - [x] 1 image  (should not be large, e.g.  over 1Mb in size)
 
 index.html
