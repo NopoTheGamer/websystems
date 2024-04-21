@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="websystems.css">
 	</head>
 	<body>
-        <div>
+        <div class = "header">
             <nav>
                 <ul>
                     <li><a class="navbar" href="index.html">Visit Index</a></li>
@@ -13,6 +13,109 @@
                     <li><a class="navbar selected" href="comments.html">Visit comments</a></li>
                  </ul>
             </nav>
+            <h1>Comments</h1>
         </div>
+        <p>
+            This page is for comments and an explanation on why I used different parts of html and css to design my website
+        </p>
+        <h2>Accessibility</h2>
+        <p>
+            I have used <code>alt="image description"</code> tags inside of my image tags to make my website more accessible to people who are visually impaired. 
+            This is important as it allows screen readers to describe the images to the user.
+            I have also used a simple colour scheme to make my website easier to navigate and read and to reduce any potential confusion.
+            The table under this has a green tint for every second row to make it easier to read and to distinguish between where the rows end.
+        </p>
+        <h2>Technical aspects</h2>
+        <table id="tableid">
+            <tr>
+              <th>HTML/CSS Elements</th>
+              <th>What I used it on</th>
+              <th>Explanation</th>
+            </tr>
+            <tr>
+              <td>5 CSS classes</td>
+              <td>Images, Header, Navigation bar, Navigation bar when it's selected, Subject list</td>
+              <td>
+                 I use these classes to: set the cat photos to a fixed size, 
+                 Change the background and text colour of the header, 
+                 Set the text colour and background colour of the navigation bar both when it's the selected page and when the button is being hovered over, 
+                 Alter the style of my subject list to remove the bullet points
+            </td>
+            </tr>
+            <tr>
+              <td>CSS id</td>
+              <td>This table</td>
+              <td>To give it individual styling</td>
+            </tr>
+            <tr>
+                <td>Div</td>
+                <td>Used in the navigation header</td>
+                <td>It seperates the title and navigation from the rest of the page
+                     as well as letting me give its own styling</td>
+              </tr>
+              <tr>
+                <td>Table</td>
+                <td>Table of html tags</td>
+                <td>Nicely formats my summary of what HTML and CSS elements I used for this project</td>
+              </tr>
+              <tr>
+                <td>Span</td>
+                <td>Subject list</td>
+                <td>Used to give the list of my subjects a nice blue colour</td>
+              </tr>
+              <tr>
+                <td>List</td>
+                <td>The navigation header</td>
+                <td>I'm using an unordered list to neatly organise the 4 hyperlinks at the top of the webpage</td>
+              </tr>
+              <tr>
+                <td>Image</td>
+                <td>Cat Photo</td>
+                <td>Used to showcase my very cute cat photos</td>
+              </tr>
+          </table>
+          <p>
+            I have altered the styling of a number of default html tags to provide a more visually appealing website. These include:
+            <ul>
+                <li><a>body: remove padding so that the header hits the edge of the page</a></li> 
+                <li><a>span: I change every span to be the colour blue, this is bad practice however I only use one colour for my span so it's fine in this case</a></li>
+                <li><a>tr(Table Row): I use "nth-child(even)" to set every other rows background to green and "hover" to make the row blue when the mouse is over it</a></li>
+                <li><a>p(Paragraph) and h2(Heading 2): I just set a margin of a few pixels from the left</a></li>
+                <li><a>div: Aligns the title and buttons to the center of the box</a></li>
+                <li><a>h1(Heading 1): Center the title of the page</a></li>
+                <li><a>ul(Unordered List) inside of a nav: Remove the list style e.g. the dot in front, center it on the page and make it so they are in a row instead of top down</a></li>  
+                <li><a>li(List Item) in a ul(Unordered List) inside of a nav: set a margin from the right so the buttons have some spacing</a></li>
+                <li><a>a(anchor) in the li(List Item) in a ul(Unordered List) inside of a nav: Provides a hyperlink to the other pages on the site</a></li>
+                <li><a>footer: Set the footers background colour, text colour, width of the whole screen, and height</a></li>
+            </ul>
+          </p>
+          <h2>Aesthetics</h2>
+          <p>
+                I have used a simple colour scheme of black, white, grey and blue to make my website look clean and professional as well as having a splash of personality.
+                <br></br>
+                I have used a relatively simple layout with a header and a body to make my website easy to navigate and read.
+                <br></br>
+                The navigation bar is aqua to provide a pop of colour as well as drawing the readers attention so they are aware of the other pages.
+                The navigation bar also has a hover effect to make it more interactive and to make it clear that it is a button.
+                <br></br>
+                Text in the body has been subtly given a small margin to make the text easier to read and to give it a small indent from the title.
+                <br></br>
+                The images are all the same size and are lined up to show all 4 in a row on my screen but on a smaller sized screen they show in more of a grid pattern/under each other.
+                The cats are also cuties.
+                <br></br>
+                The table that is on this page is styled to have a green tint as well as having a blueish tint when you hover over a row to make it more interactive and to provide a splash of colour.
+                <br></br>
+                The footer is a purple colour that provides contrast to the rest of the screen
+
+          </p>
+          <div class="container">
+          <footer class="footer">
+            <p>⠀ </p>
+            <p>Emily Hogno</p>
+            <p>31628 Web Systems</p>
+            <p>University of Technology, Sydney </p>
+          </footer>
+          </div>
 	</body>
+    
 </html>
